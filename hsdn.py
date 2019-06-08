@@ -29,6 +29,11 @@ def get_symptoms_list():
 # ----------------------------------------------
 disease_labels = get_diseases_list()
 symptom_features = get_symptoms_list()
+with open(os.path.join(os.getcwd(), 'databases', 'disease_labels.p'), 'wb') as f:
+    pickle.dump(disease_labels, f)
+with open(os.path.join(os.getcwd(), 'databases', 'symptom_features.p'), 'wb') as f:
+    pickle.dump(symptom_features, f)
+
 
 # ----------------------------------------------
 # Network methods
@@ -84,4 +89,3 @@ if __name__ == "__main__":
     print(np.shape(disease_symptom_matrix))
     with open(os.path.join(os.getcwd(), 'databases', 'hsdn.p'), 'wb') as f:
         pickle.dump(disease_symptom_matrix, f)
-    
