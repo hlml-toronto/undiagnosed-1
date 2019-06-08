@@ -11,7 +11,7 @@ def get_diseases_list():
             if not line:
                 break
             else:
-                diseases.append(line)
+                diseases.append(line.rstrip().split("\t", 1)[0])
     return diseases
 
 def get_symptoms_list():
@@ -22,24 +22,24 @@ def get_symptoms_list():
             if not line:
                 break
             else:
-                symptoms.append(line)
+                symptoms.append(line.rstrip().split("\t", 1)[0])
     return symptoms
+
+
 # ----------------------------------------------
 # Globals
 # ----------------------------------------------
 disease_labels = get_diseases_list()
 symptom_features = get_symptoms_list()
+
 with open(os.path.join(os.getcwd(), 'databases', 'disease_labels.p'), 'wb') as f:
     pickle.dump(disease_labels, f)
 with open(os.path.join(os.getcwd(), 'databases', 'symptom_features.p'), 'wb') as f:
     pickle.dump(symptom_features, f)
 
-
 # ----------------------------------------------
 # Network methods
 # ----------------------------------------------
-
-
 def get_symptoms_for_disease(query_disease):
     symptoms = []
     with open(os.path.join(os.getcwd(), 'databases', 'ncomms5212-s3.txt'), 'r') as f:
