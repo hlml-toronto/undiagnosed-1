@@ -1,5 +1,6 @@
 import os
 import numpy as np
+import pickle
 
 
 def get_diseases_list():
@@ -81,3 +82,6 @@ def build_disease_symptom_matrix():
 if __name__ == "__main__":
     disease_symptom_matrix = build_disease_symptom_matrix()
     print(np.shape(disease_symptom_matrix))
+    with open(os.path.join(os.getcwd(), 'databases', 'hsdn.p'), 'wb') as f:
+        pickle.dump(disease_symptom_matrix, f)
+    
