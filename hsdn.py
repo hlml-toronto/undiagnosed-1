@@ -85,8 +85,6 @@ def build_disease_symptom_matrix():
 
 
 if __name__ == "__main__":
-    print(len(disease_labels))
-    exit()
     disease_symptom_matrix = build_disease_symptom_matrix()
     print(np.shape(disease_symptom_matrix))
     with open(os.path.join(os.getcwd(), 'databases', 'hsdn.p'), 'wb') as f:

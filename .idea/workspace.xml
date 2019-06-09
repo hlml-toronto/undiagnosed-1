@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_patient_symptom_vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_patient_symptom_vector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/databases/disease_labels.p" beforeDir="false" afterPath="$PROJECT_DIR$/databases/disease_labels.p" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases/hsdn.p" beforeDir="false" afterPath="$PROJECT_DIR$/databases/hsdn.p" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/databases/medicaldata_MERGE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/databases/medicaldata_MERGE.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/databases/medicaldata_MERGE_RAWSymptoms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/databases/medicaldata_MERGE_RAWSymptoms.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/databases/ncomms5212-s1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/databases/ncomms5212-s1.txt" afterDir="false" />
@@ -16,7 +15,9 @@
       <change beforePath="$PROJECT_DIR$/databases/ncomms5212-s4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/databases/ncomms5212-s4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/databases/patient_symptoms_v1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/databases/patient_symptoms_v1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/databases/symptom_features.p" beforeDir="false" afterPath="$PROJECT_DIR$/databases/symptom_features.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagnose_patient_by_tsne_with_symptoms.py" beforeDir="false" afterPath="$PROJECT_DIR$/diagnose_patient_by_tsne_with_symptoms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hsdn.py" beforeDir="false" afterPath="$PROJECT_DIR$/hsdn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patch_hsdn.py" beforeDir="false" afterPath="$PROJECT_DIR$/patch_hsdn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plot_disease_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot_disease_network.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tSNE_plot_hsdn.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/tSNE_plot_hsdn.pdf" afterDir="false" />
     </list>
@@ -29,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="plot_disease_network.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plot_disease_network.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plot_disease_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -41,24 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="diagnose_patient_by_tsne_with_symptoms.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="diagnose_patient_by_tsne_with_symptoms.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/diagnose_patient_by_tsne_with_symptoms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1560046097985" expanded="true" signature="982:985" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="patch_hsdn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patch_hsdn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="149">
+              <caret line="32" column="112" selection-start-line="32" selection-start-column="112" selection-end-line="32" selection-end-column="112" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -82,10 +70,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build_patient_symptom_vector.py" />
-        <option value="$PROJECT_DIR$/diagnose_patient_by_tsne_with_symptoms.py" />
-        <option value="$PROJECT_DIR$/hsdn.py" />
         <option value="$PROJECT_DIR$/patch_hsdn.py" />
         <option value="$PROJECT_DIR$/plot_disease_network.py" />
+        <option value="$PROJECT_DIR$/hsdn.py" />
+        <option value="$PROJECT_DIR$/diagnose_patient_by_tsne_with_symptoms.py" />
       </list>
     </option>
   </component>
@@ -132,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.patch_hsdn">
+  <component name="RunManager" selected="Python.diagnose_patient_by_tsne_with_symptoms">
     <configuration name="build_patient_symptom_vector" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="undiagnosed-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,10 +220,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.patch_hsdn" />
-        <item itemvalue="Python.plot_disease_network" />
-        <item itemvalue="Python.hsdn" />
         <item itemvalue="Python.diagnose_patient_by_tsne_with_symptoms" />
+        <item itemvalue="Python.hsdn" />
+        <item itemvalue="Python.plot_disease_network" />
+        <item itemvalue="Python.patch_hsdn" />
         <item itemvalue="Python.build_patient_symptom_vector" />
       </list>
     </recent_temporary>
@@ -290,24 +278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diagnose_patient_by_tsne_with_symptoms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1560046097985" expanded="true" signature="982:985" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hsdn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/patch_hsdn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -320,8 +290,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plot_disease_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hsdn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diagnose_patient_by_tsne_with_symptoms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="32" column="112" selection-start-line="32" selection-start-column="112" selection-end-line="32" selection-end-column="112" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
