@@ -1,0 +1,10 @@
+1 Intellectual Disability
+2 Epileptic encephalopathy
+3 Schizophrenia
+4 Malignant neoplasm of prostate
+5 Malignant neoplasm of breast
+6 Prostatic Neoplasms
+7 Colorectal Cancer
+8 Microcephaly
+9 Autistic Disorder
+10 Ataxias, Hereditary
