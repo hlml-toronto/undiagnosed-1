@@ -20,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/patch_hsdn.py" beforeDir="false" afterPath="$PROJECT_DIR$/patch_hsdn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plot_disease_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot_disease_network.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tSNE_plot_hsdn.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/tSNE_plot_hsdn.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsne_symptom_plot_v1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/tsne_symptom_plot_v1.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/plot_disease_network.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -45,8 +46,8 @@
       <file leaf-file-name="diagnose_patient_by_tsne_with_symptoms.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/diagnose_patient_by_tsne_with_symptoms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="32" column="112" selection-start-line="32" selection-start-column="112" selection-end-line="32" selection-end-column="112" />
+            <state relative-caret-position="169">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -243,7 +244,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16927083" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -291,7 +291,7 @@
     <entry file="file://$PROJECT_DIR$/plot_disease_network.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -300,15 +300,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hsdn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="1209">
           <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/diagnose_patient_by_tsne_with_symptoms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="32" column="112" selection-start-line="32" selection-start-column="112" selection-end-line="32" selection-end-column="112" />
+        <state relative-caret-position="169">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
