@@ -65,5 +65,5 @@ if __name__ == '__main__':
     DATABASE = 'databases/orphadata/'
     FILE = 'en_product4_HPO.xml'
 
-    #create_database(DATABASE, FILE)
+    create_database(DATABASE, FILE)
     create_patient_symptom_vector(DATABASE, FILE)
