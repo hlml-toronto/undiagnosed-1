@@ -40,10 +40,10 @@ if __name__ == "__main__":
     patient_symptoms_v1 = []
     for s in symptom_features:
         if s in matching_symptom_list:
-            patient_symptoms_v1.append(1.0)
+            patient_symptoms_v1.append(1)
         else:
-            patient_symptoms_v1.append(0.0)
-    with open(os.path.join(os.getcwd(), 'databases', 'patient_symptoms_v1.csv'), 'w') as f:
+            patient_symptoms_v1.append(0)
+    with open(os.path.join(os.getcwd(), 'patient', 'patient_symptoms_v1.csv'), 'w') as f:
         wr = csv.writer(f)
         wr.writerow(patient_symptoms_v1)
 
