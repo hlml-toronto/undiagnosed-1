@@ -1,0 +1,10 @@
+1 DIARRHEA 5, WITH TUFTING ENTEROPATHY, CONGENITAL
+2 Borjeson-Forssman-Lehmann syndrome
+3 Duplication 15q11-q13 Syndrome
+4 Ear Diseases
+5 Charcot-Marie-Tooth disease, X-linked, 1
+6 Diastrophic dysplasia
+7 Achondrogenesis, type IB (disorder)
+8 EPIPHYSEAL DYSPLASIA, MULTIPLE, 4
+9 MENTAL RETARDATION, AUTOSOMAL RECESSIVE 18
+10 SPINAL MUSCULAR ATROPHY, LOWER EXTREMITY-PREDOMINANT, 2, AUTOSOMAL DOMINANT
