@@ -63,7 +63,7 @@ def get_symptom_score_for_disease(query_disease, query_symptom):
             else:
                 line = line.split("\t")
                 if (line[1] == query_disease)&(line[0] == query_symptom):
-                    return line[3]
+                    return float(line[3].rstrip())
 
 
 def build_symptom_vector(query_disease):
@@ -73,7 +73,7 @@ def build_symptom_vector(query_disease):
         if symptom in disease_symptoms:
             symptom_vector.append(get_symptom_score_for_disease(query_disease, symptom))
         else:
-            symptom_vector.append(0)
+            symptom_vector.append(0.0)
     return symptom_vector
 
 
