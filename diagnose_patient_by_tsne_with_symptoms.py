@@ -11,6 +11,7 @@ from sklearn.manifold import TSNE
 disease_labels = []
 symptom_features = []
 hsdn = []
+
 with open(os.path.join(os.getcwd(), 'databases', 'disease_labels.p'), 'rb') as f:
     disease_labels = pickle.load(f)
 with open(os.path.join(os.getcwd(), 'databases', 'symptom_features.p'), 'rb') as f:
@@ -18,8 +19,16 @@ with open(os.path.join(os.getcwd(), 'databases', 'symptom_features.p'), 'rb') as
 with open(os.path.join(os.getcwd(), 'databases', 'hsdn.p'), 'rb') as f:
     hsdn = pickle.load(f)
 
+patient_symptom_v1 = np.loadtxt(os.path.join(os.getcwd(), 'patient', 'patient_symptoms_v1.txt'))
+patient_symptom_v2 = np.loadtxt(os.path.join(os.getcwd(), 'patient', 'patient_symptoms_v2.txt'))
+patient_symptom_v3 = np.loadtxt(os.path.join(os.getcwd(), 'patient', 'patient_symptoms_v3.txt'))
+
+def make_tsne_diagnosis(data, plot_fname):
+
 
 if __name__ == "__main__":
+# Add patient to data as an unlabelled 'disease'
+    hsdn.append(patient_symptom_v1)
 # Perform PCA
     print("PCA")
     num_diseases = len(disease_labels)
