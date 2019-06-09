@@ -55,7 +55,7 @@ def create_patient_symptom_vector(DATABASE, FILE):
 
     patient_symptoms = [ 1.0 if sym in patient_symptoms_excel else 0.0 for sym in symptoms ]
 
-    with open(DATABASE + 'rare_syndrome_vector_HPO.dat', 'wb') as f:
+    with open(DATABASE + 'rare_symptom_vector_HPO.dat', 'wb') as f:
         pickle.dump( patient_symptoms, f )
 
     print( np.sum(patient_symptoms) )
