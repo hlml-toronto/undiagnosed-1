@@ -1,0 +1,10 @@
+1 Intellectual Disability
+2 Epileptic encephalopathy
+3 Malignant neoplasm of breast
+4 Malignant neoplasm of prostate
+5 Charcot-Marie-Tooth Disease
+6 Prostatic Neoplasms
+7 Schizophrenia
+8 Liver Cirrhosis, Experimental
+9 Colorectal Cancer
+10 Breast Carcinoma
