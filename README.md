@@ -2,7 +2,7 @@
 https://sv.ai/undiagnosed-1-toronto
 
 UofT HLML team:
-- Liam Haas-Neill
+- Liam Haas-Neill @liamhn
 - Duncan Kirby 
 - Eugene Klyshko
 - Chris Nunn 
